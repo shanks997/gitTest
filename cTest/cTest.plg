@@ -6,28 +6,31 @@
 --------------------Configuration: cTest - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\Shanks\AppData\Local\Temp\RSP7EC6.tmp" with contents
+Creating temporary file "C:\Users\Shanks\AppData\Local\Temp\RSPFD38.tmp" with contents
 [
-/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/cTest.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
-"D:\Codes Files\VC++6.0\cTest\cTest.cpp"
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/cTest.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Repository\gitTest\cTest\cTest.cpp"
 ]
-Creating command line "cl.exe @C:\Users\Shanks\AppData\Local\Temp\RSP7EC6.tmp" 
-Creating temporary file "C:\Users\Shanks\AppData\Local\Temp\RSP7ED7.tmp" with contents
+Creating command line "cl.exe @C:\Users\Shanks\AppData\Local\Temp\RSPFD38.tmp" 
+Creating temporary file "C:\Users\Shanks\AppData\Local\Temp\RSPFD39.tmp" with contents
 [
-kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/cTest.pdb" /debug /machine:I386 /out:"Debug/cTest.exe" /pdbtype:sept 
-".\Debug\cTest.obj"
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/cTest.pdb" /debug /machine:I386 /out:"Debug/cTest.exe" /pdbtype:sept 
+.\Debug\cTest.obj
 ]
-Creating command line "link.exe @C:\Users\Shanks\AppData\Local\Temp\RSP7ED7.tmp"
+Creating command line "link.exe @C:\Users\Shanks\AppData\Local\Temp\RSPFD39.tmp"
 <h3>Output Window</h3>
 Compiling...
 cTest.cpp
-d:\codes files\vc++6.0\ctest\ctest.cpp(12) : warning C4508: 'main' : function should return a value; 'void' return type assumed
-Linking...
+d:\repository\gittest\ctest\ctest.cpp(7) : error C2065: 'n1' : undeclared identifier
+d:\repository\gittest\ctest\ctest.cpp(8) : error C2065: 'n2' : undeclared identifier
+d:\repository\gittest\ctest\ctest.cpp(9) : error C2065: 'result' : undeclared identifier
+d:\repository\gittest\ctest\ctest.cpp(12) : warning C4508: 'main' : function should return a value; 'void' return type assumed
+Ö´ÐÐ cl.exe Ê±³ö´í.
 
 
 
 <h3>Results</h3>
-cTest.exe - 0 error(s), 0 warning(s)
+cTest.exe - 1 error(s), 0 warning(s)
 </pre>
 </body>
 </html>
